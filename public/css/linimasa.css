@@ -1,0 +1,183 @@
+/* (A) TIMELINE CONTAINER */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.alt-vtl {
+    /* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+    position: relative;
+    /* (A2) WIDTH RESTRICTION & CENTER ON PAGE */
+    margin-top: 125px;
+    margin-left: 100px;
+    font-family: 'Noto Serif';
+    margin-bottom: 100px;
+}
+
+.alt-vtl h1 {
+    color: #70352D;
+    font-family: 'Noto Serif';
+}
+
+.alt-vtl h3 {
+    color: #70352D;
+    font-family: 'Noto Serif';
+    font-size: 20px;
+}
+
+
+/* (B) DRAW TIMELINE USING ::BEFORE */
+
+.display {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* (C) EVENTS */
+
+div.alt-event {
+    /* (C1) COSMETICS */
+    background-color: #FEC270;
+    border-radius: 6px;
+    /* (C2) DIMENSIONS */
+    padding: 20px 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    /* (C3) POSITION - DEFAULT LEFT SIDE */
+    position: relative;
+    border: #70352D solid 2px;
+    box-shadow: 5px 5px 5px 5px rgba(254, 194, 112, 0.5);
+}
+
+
+/* (C4) CHANGE EVENT POSITION TO RIGHT SIDE */
+
+div.right {
+    left: 55%;
+}
+
+
+/* (D) COSMETICS FOR EVENT DATE & TEXT */
+
+p.date {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #ff6a00;
+}
+
+p.txt {
+    margin: 10px 0 0 0;
+    color: #222;
+}
+
+
+/* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+
+
+/* (E1) SHARED */
+
+div.alt-event::before,
+div.alt-event.right::before {
+    content: "";
+    border: 10px solid transparent;
+    position: absolute;
+}
+
+
+/* (E2) FOR EVENTS ON THE LEFT */
+
+div.alt-event::before {
+    /* (E2-1) "MAGIC TRIANGLE" */
+    border-left-color: #FEC270;
+    border-right: 0;
+    /* (E2-2) POSITION TRIANGLE ON THE RIGHT */
+    top: 20%;
+}
+
+
+/* (E3) FOR EVENTS ON THE RIGHT */
+
+div.alt-event.right::before {
+    /* (E3-1) "MAGIC TRIANGLE" */
+    border-right-color: #FEC270;
+    border-left: 0;
+    /* (E3-2) POSITION TRIANGLE ON THE LEFT */
+    left: auto;
+    right: 100%;
+    top: 20%;
+}
+
+
+/* (F) EVENT CIRCLE ON TIMELINE */
+
+
+/* (F1) SHARED */
+
+div.alt-event::after,
+div.alt-event.right::after {
+    /* (F1-1) "MAGIC CIRCLE" */
+    content: "";
+    background: #70352D;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    /* (F1-2) POSITION */
+    position: absolute;
+}
+
+
+/* (F2) POSITION TO THE LEFT */
+
+div.alt-event::after {
+    top: 20%;
+    left: 108%;
+}
+
+
+/* (F3) POSITION TO THE RIGHT */
+
+div.alt-event.right::after {
+    top: 20%;
+    left: auto;
+    right: 105%;
+}
+
+.pict-linimasa-arunika {
+    width: 50vw;
+    z-index: -20;
+    align-items: center;
+    justify-content: center;
+}
+
+.linimasa-h1 {
+    font-family: 'Noto Serif';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #70352D;
+    font-size: 75px;
+    position: relative;
+    bottom: 25px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.pict-timeline {
+    width: 750px;
+    margin-bottom: 50px;
+}
+
+.timeline-poseng {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}

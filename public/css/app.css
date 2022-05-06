@@ -1,0 +1,474 @@
+body {}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+div.logo_kiri,
+div.logo_kanan,
+div.tengah {
+    display: flex;
+}
+
+div.tengah {
+    text-decoration: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+div.logo_kiri {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+div.logo_kanan {
+    justify-content: right;
+    align-items: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+}
+
+ul.head-li a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Noto Serif';
+    font-size: 30px;
+    font-weight: bolder;
+    color: #70352D;
+}
+
+img.fikom-logo {
+    width: 140px;
+    height: 80px;
+    margin: 20px 0;
+}
+
+img.uc-logo {
+    width: 80px;
+    margin: 20px 0;
+}
+
+.background {
+    z-index: -999;
+    position: fixed;
+    margin-left: -50px;
+    padding: 0;
+}
+
+
+/* home arunika */
+
+.home-arunika {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-home-arunika {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding-left: 150px;
+}
+
+.pict-home-arunika {
+    width: 50vw;
+    padding-right: 50px;
+}
+
+.tentang-kami {
+    background: #D65B22;
+    border-radius: 100px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: white;
+    border-style: none;
+}
+
+.text-arunika {
+    font-size: 4vw;
+    font-family: 'Noto Serif';
+    font-weight: bolder;
+    color: #D65B22;
+}
+
+.text-arunika2 {
+    font-size: 2vw;
+    font-family: 'Noto Serif';
+    font-weight: bolder;
+    color: #D65B22;
+}
+
+.text-2 {
+    padding-top: 25px;
+    font-family: 'Noto Serif';
+    color: #D65B22;
+    font-size: 1.5vw;
+}
+
+.text-lorem {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #70352D;
+}
+
+.text-lorem2 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #70352D;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flower1 {
+    position: fixed;
+    width: 205px;
+    height: 205px;
+    left: -102px;
+    top: 218px;
+    opacity: 50%;
+    z-index: -5;
+}
+
+.flower2 {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    left: 1850px;
+    top: 853px;
+    opacity: 50%;
+    z-index: -5;
+}
+
+
+/* home profil */
+
+.home-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text-home-profil2 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.text-home-2 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.text-home-profil {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.pict-home-profil {
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text-profil2 {
+    font-size: 4vw;
+    font-family: 'Noto Serif';
+    font-weight: bolder;
+    color: #D65B22;
+    text-align: center;
+    margin: 200px;
+}
+
+.second {
+    margin-top: 50px;
+}
+
+
+/* divider */
+
+.editorial {
+    display: block;
+    width: 99.1vw;
+    height: 60px;
+    max-height: 60px;
+    margin: 0 0 0;
+    z-index: 5;
+    bottom: 0;
+    position: relative;
+    left: 0px;
+    float: left;
+}
+
+.editorial2 {
+    display: block;
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    z-index: 5;
+    bottom: 0;
+    position: absolute;
+    left: 0px;
+    float: left;
+}
+
+.parallax1>use {
+    animation: move-forever1 10s linear infinite;
+    &:nth-child(1) {
+        animation-delay: -2s;
+    }
+}
+
+.parallax2>use {
+    animation: move-forever2 8s linear infinite;
+    &:nth-child(1) {
+        animation-delay: -2s;
+    }
+}
+
+.parallax3>use {
+    animation: move-forever3 6s linear infinite;
+    &:nth-child(1) {
+        animation-delay: -2s;
+    }
+}
+
+.parallax4>use {
+    animation: move-forever4 4s linear infinite;
+    &:nth-child(1) {
+        animation-delay: -2s;
+    }
+}
+
+@keyframes move-forever1 {
+    0% {
+        transform: translate(85px, 0%);
+    }
+    100% {
+        transform: translate(-90px, 0%);
+    }
+}
+
+@keyframes move-forever2 {
+    0% {
+        transform: translate(-90px, 0%);
+    }
+    100% {
+        transform: translate(85px, 0%);
+    }
+}
+
+@keyframes move-forever3 {
+    0% {
+        transform: translate(85px, 0%);
+    }
+    100% {
+        transform: translate(-90px, 0%);
+    }
+}
+
+@keyframes move-forever4 {
+    0% {
+        transform: translate(-90px, 0%);
+    }
+    100% {
+        transform: translate(85px, 0%);
+    }
+}
+
+.section-margin {
+    z-index: 10;
+}
+
+
+/* pict tentang kami */
+
+.pict-tentang-kami {
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: 25%;
+    z-index: -3;
+}
+
+.text-tentang-kami {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: -400px;
+}
+
+.text-tentangkami {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #70352D;
+}
+
+
+/* pict penumpulan */
+
+.pict-home-barcode {
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* box */
+
+.wrapper {
+    width: 20vw;
+    height: 20vw;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: #70352D 5px 5px 5px 5px;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.main-element {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: block;
+    height: 98%;
+    width: 98%;
+    margin: auto;
+    align-self: center;
+    background: #fff;
+    z-index: 1;
+}
+
+.main-element2 {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: block;
+    height: 98%;
+    width: 98%;
+    margin: auto;
+    align-self: center;
+    z-index: 1;
+    background-image: url('pict/background.svg');
+}
+
+.border {
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: -50%;
+    z-index: -9;
+    display: block;
+    height: 200%;
+    width: 200%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+    background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+    background-size: 200% auto;
+    animation: shine 1s linear infinite;
+}
+
+.border {
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: -50%;
+    z-index: -9;
+    display: block;
+    height: 200%;
+    width: 200%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+    background: linear-gradient(to left, #fff 20%, #fff 40%, #DE8040 50%, #EB9558 55%, #fff 70%, #fff 100%);
+    background-size: 200% auto;
+    animation: shine 1s linear infinite;
+}
+
+
+/*Begin shimmer code*/
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

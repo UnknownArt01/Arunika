@@ -1,0 +1,44 @@
+.pict-sponsor-diamond1 {
+    height: 220;
+    margin-right: 100px;
+}
+
+.pict-sponsor-diamond2 {
+    height: 250;
+    margin-left: 100px;
+}
+
+.pict-sponsor-platinum {
+    height: 150px;
+}
+
+.pict-sponsor-gold {
+    width: 100px;
+}
+
+.diamond {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.pict-sponsor-profil {
+    width: 50vw;
+    z-index: -20;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-arunika-sponsor {
+    margin-bottom: 0;
+    margin-top: 100px;
+    font-size: 4vw;
+    font-family: 'Noto Serif';
+    font-weight: bolder;
+    color: #D65B22;
+}

@@ -1,0 +1,77 @@
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.circular {
+    width: 250px;
+    box-shadow: #D65B22 5px 5px 5px 5px;
+    border-radius: 100%;
+}
+
+.workshop-contain {
+    width: 1000px;
+    color: #70352D;
+    display: flex;
+}
+
+.workshop-contain h1,
+h2,
+p {
+    text-align: center;
+}
+
+.profil-first h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.profil-first h2 {
+    font-size: 40px;
+    top: -10px;
+}
+
+.profil-first p {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.wrapper3 {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: #70352D 5px 5px 5px 5px;
+    margin-top: 50px;
+    display: flex;
+    color: #70352D;
+    border-radius: 20px;
+}
+
+.calendar {
+    width: 25px;
+}
+
+.timeline-first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.timeline-first img {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.divider {
+    margin-bottom: 100px;
+}
