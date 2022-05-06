@@ -12,7 +12,7 @@
         <img class="flower2" src="pict/flower1.svg" alt="">
         <div class="text-home-profil">
             <h1 class="text-arunika">Profil Workshop</h1>
-            <h1 class="text-arunika2">"Cahaya Matahari Yang Baru Saja Terbit"</h1>
+            {{-- <h1 class="text-arunika2">"Cahaya Matahari Yang Baru Saja Terbit"</h1> --}}
             <h4 class="text-lorem"></h4>
             {{-- <button class="tentang-kami">Tentang Kami</button> --}}
         </div>
@@ -114,7 +114,7 @@
             <div><img class="circular" src="pict/profil/ertanto-robby.png" alt="">
 
                 <p>Workshop by:</p>
-                <h1>Ertanto Robby</h1>
+                <h1>Robby Ertanto</h1>
             </div>
         </div>
     </div>
