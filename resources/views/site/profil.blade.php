@@ -119,7 +119,7 @@
         </div>
     </div>
 
-    {{-- <footer>
+    <footer>
         <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
@@ -139,6 +139,6 @@
                 <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" />
             </g>
         </svg>
-    </footer> --}}
+    </footer>
 
 </x-layout>
